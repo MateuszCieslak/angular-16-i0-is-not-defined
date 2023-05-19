@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "declaration": true,
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "downlevelIteration": true,
+        "strict": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "inlineSources": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "./dist",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "lib": ["dom", "es2022"],
+        "jsx": "react",
+        "rootDir": "..",
+        "module": "commonjs",
+        "types": ["webpack-env", "jasmine"]
+    },
+    "include": ["../src/**/*", "./test/**/*"],
+}
